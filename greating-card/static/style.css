@@ -1,0 +1,55 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc0cb; /* Pink background */
+    background-image: url("images/cake.png");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Card styles */
+.card {
+    text-align: center;
+    background: rgba(255, 105, 180, 0.8); /* Semi-transparent pink */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.card h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cake-image {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.celebrate-btn {
+    text-decoration: none;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.celebrate-btn:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+}
+
